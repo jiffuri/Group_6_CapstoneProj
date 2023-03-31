@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url(myColor.css);
+
+
+
+
+.navToggle{
+    background-color:var(--firstColor)!important;
+    font-size: 27px!important;
+    margin-left: 30px;
+}
+a{
+    color: black !important;
+}
+
+
+.ourLogo{
+    font-size: 100px!important;
+    font-family: 'Changa One', cursive;
+    color: var(--secondColor);
+}
+
+.mainPageDiv01{
+    min-height: 23px;
+
+}
+
+.navbar{
+    background-color: #f0d1a0;
+}
+.navbar-brand{
+    font-size: 27px!important;
+}
+.myActive{
+    height: 55px;
+    border-radius: 10px;
+    /* background-color: var(--secondColor); */
+    color: white!important;
+    transform: scale(1.3);
+    margin: 0px 7px;
+    font-weight: bolder;
+    
+    
+  
+}
+
+.numOfItemInCart{
+        font-size: 33px;
+}
+ 
+
+#navbarTogglerd{
+
+    justify-content: center;
+    width: 200px;
+    font-size: 23px;
+    
+}
+.navIcons{
+    color: black!important;
+    display: flex;
+    font-size: 23px;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: end;
+ 
+}
+
+
+@media(max-width: 998px){
+    .navbar-nav{
+        
+        text-align: center;
+    }
+    .navIcons{
+        display: flex!important;
+        justify-content: end;
+        text-align: center!important;
+        padding: 20px;
+
+    }
+}

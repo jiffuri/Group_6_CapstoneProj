@@ -1,0 +1,36 @@
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.about .img{ 
+    flex: 16 16 350px;
+}
+.about .img img{
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+}
+.about .content{
+    position: relative;
+    flex: 16 16 350px;
+
+}
+.about .content span{
+    color: 		#6d3200;
+    font-size: 25px;
+}
+.about .content h3{
+    color: #222;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.about .content p{
+    color: #222;
+    font-size: 14px;
+    line-height: 2.5;
+    word-spacing: 7px;
+    padding: 33px 0px 0px 0px;
+    text-indent: 33px;
+}
+

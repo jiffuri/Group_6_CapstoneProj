@@ -1,0 +1,74 @@
+
+
+
+.theFoot{
+    background: var(--firstColor);
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+.footer .box-container .box h3{
+    font-size: 20px;
+    color: 	#6d3200;
+    padding: 5px 0;
+}
+.footer .box-container .box p{
+    font-size: 15px;
+    color: #222;
+    padding-bottom: 5px;
+}
+.footer .box-container .box a{
+    font-size: 13px;
+    color: #000;
+    padding: 10px 0;
+    display: block;
+}
+.footer .box-container .box a:hover{
+    color: #fff;
+}
+.footer .box-container .box a:hover i{
+    padding-right: 20px;
+}
+.footer .box-container .box a i{
+    padding-right: 5px;
+    color: #000;
+}
+.footer .box-container .box form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: 	#422308;
+    margin: 5px 0;
+    text-transform: none;
+    border-radius: 3px;
+}
+.footer .box-container .box form .btn{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: #eec07b;
+    margin: 5px 0;
+    text-transform: none;
+    border-radius: 3px;
+    background-color: #422308;
+}
+.footer .box-container .box form .btn:hover{
+    background-color: 	#f0d1a0;
+    color: 	#422308;
+}
+.footer .box-container .box .payments{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.footer .box-container .box .payments img{
+    width: 40px;
+    height: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+.footer .box-container .box .payments img:hover{
+    padding-bottom: 15px;
+}
+

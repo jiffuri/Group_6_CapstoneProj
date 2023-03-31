@@ -1,0 +1,21 @@
+
+
+
+#shopHead{
+    margin-bottom: 120px;
+}
+
+#shopBannerButton{
+    font-size: 40px;
+    padding: 23px;
+    border-radius: 7px;
+    background-color: var(--fourthColor);
+}
+
+.shopCardBtn{
+    background-color: var(--fourthColor)!important;
+    
+}
+.shopCardBtn:hover{
+    transform: scale(1.3)  
+}

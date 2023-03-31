@@ -1,0 +1,97 @@
+.orderButton{
+
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: none;
+    z-index: 7;
+    
+    
+}
+.orderButton .orderContainer{
+    background-color: #eec07b;
+    max-width: 500px;
+    height: 480px;
+    position: relative;
+    padding: 0px 60px 0px 50px;
+    font-size: medium;
+    border-radius: 5px;
+}
+.orderButton .orderContainer h2{
+    /* background-color: 	#422308; */
+    color: #422308;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 8px;
+    text-align: left;
+}
+.labelLink{
+    padding-left: 12px;
+}
+.orderButton .orderContainer input{
+    font-size:medium;
+    margin-left: 10px;
+    height: 50px;
+    border-radius: 3px;
+}
+.orderButton .orderContainer label{
+    padding-left: 23px;
+}
+.orderButton .orderContainer div button{
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 3px;
+
+}
+.exit{ 
+    position: absolute;
+    width: 30px;
+    right: 0px;
+    background: #eec07b;
+    color: #422308;
+}
+.signIn a{
+    background-color: #422308;
+}
+.signIn a:hover{
+    background-color: #6d3200;
+    color: #eec07b;
+}
+#aguest{
+    width: 100%;
+}
+/* #aguest div{
+    background-color: blue;
+    width: 100%;
+} */
+#aguest div a{
+    background-color: #422308;
+}
+#aguest div a:hover{
+    background-color: #6d3200;
+    color: #eec07b;
+}
+.myCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 23tepx;
+}
+
+/*@keyframes fadeLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+}
+@keyframes fadeup{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+} */

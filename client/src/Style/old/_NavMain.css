@@ -1,0 +1,122 @@
+.btn{
+    margin-top: 16px;
+    display: inline-block;
+    padding: 6px 20px;
+    background: var(--brown);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #222;
+}
+
+.heading{
+ 
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 70px;
+    /* height: 250px; */
+    margin-top: 70px;
+    
+}
+                #cartHeading{
+                    background-image: linear-gradient(to top, transparent 40%, #f0d1a0 60%);
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    background-position: center;
+                    /* background-color:#843f11; */
+                    text-align: center;
+                    padding-top: 23px;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    margin-top: 70px;
+
+                }
+.heading img{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 2);
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 19.2px 0;
+    border-bottom: 1.6px solid rgba(0, 0, 0, 1.6px);
+    color: #6d3200;
+}
+.title span{
+    color: #422308;
+    padding-left: 11px;
+}
+.title a{
+    margin-left: auto;
+    color: 	#422308;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #eec07b;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title a:hover{
+    color: 	#6d3200;
+}
+.header{
+    position: fixed;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    width: 100vw;
+    z-index: 1000;
+    background: #eec07b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.header .logo{
+    font-size: 25px;
+    font-weight: bolder;
+    color: 	#422308;
+    text-decoration: none;
+}
+.header .logo i{
+    color: #222;
+    padding-right: 6px;
+    
+}
+.header .navbarMain a{
+    font-size: 18px;
+    color: 	#422308;
+    margin: 0 16px;
+    text-decoration: none;
+}
+.header .navbarMain a:hover{
+    color: #222;
+}
+.header .iconsMain a{
+    font-size: 23px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: 	#422308;
+    text-decoration: none   ;
+}
+.header .iconsMain div:hover{
+    color: #6d3200;
+}
+#menu-btn{
+    display:none;
+}
+.header .navbarMain .active{
+    padding: 15px;
+    background: #6d3200;
+    border-radius: 5px;
+    color: #eec07b;
+}

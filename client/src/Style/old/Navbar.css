@@ -1,0 +1,30 @@
+
+.navbar{
+    background-color: var(--firstColor);
+}
+.navbar-brand{
+    font-size: 27px!important;
+}
+.myActive{
+    height: 55px;
+    border-radius: 10px;
+    background-color: var(--secondColor);
+    color: var(--firstColor)!important;
+}
+
+ 
+
+#navbarTogglerd{
+
+    justify-content: center;
+    width: 200px;
+    font-size: 23px;
+    
+}
+.navIcons{
+    display: flex;
+    font-size: 23px;
+    width: 200px;
+    gap: 20px;
+    text-decoration: none;
+}

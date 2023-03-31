@@ -1,0 +1,40 @@
+.hide{
+    display: none!important;
+}
+.hide2{
+    visibility: hidden!important;
+}
+.show{
+    display: block!important;
+}
+.show2{
+    visibility: visible!important;
+}
+.changeColor{
+    color: red;
+}
+.blueColor{
+    color: blue!important;
+}
+
+.required:before {
+    content: "*";
+    font-weight: bold;
+    color: red;
+}
+.clickableBackground{
+    background-color: #f0d1a0!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

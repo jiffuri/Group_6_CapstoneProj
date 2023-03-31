@@ -1,0 +1,43 @@
+
+
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.gallery .box-container .box{
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+}
+.gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gallery .box-container .box:hover img{
+    transform: scale(1.2);
+}
+.gallery .box-container .box:hover .icons{
+    bottom: 0;
+}
+.gallery .box-container .box .icons{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 16px 0;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.gallery .box-container .box .icons a{
+    font-size: 25px;
+    color: 	#eec07b;
+    margin: 0 20px;
+    text-decoration: none;  
+}
+.gallery .box-container .box .icons a:hover{
+    color: #6d3200;
+}

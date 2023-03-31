@@ -1,0 +1,267 @@
+
+
+#checkBody{
+    width: 100%;
+    min-height: 900px;
+    
+    margin: 80px 0px 200px 0px;
+    
+}
+
+ 
+
+#address{
+    padding: 0px 50px 30px 50px;
+    min-height: 300px;
+    background-color: 	#eec07b;
+}
+#address div h2,h4{
+    margin-bottom: 33px ;
+    padding-top: 30px;
+ 
+}
+#address div p{
+    margin-left: 37px;
+    font-size: 16px;
+}
+#address div p span{
+    font-weight: bolder;
+}
+
+
+
+
+
+/* CART SUMMARY DETAILS */
+#cartSummary_Main{
+    padding: 0px 20px 0px 20px;
+    width: 370px;
+    min-height: 200px;
+  
+}
+#cartSummary_Main div{
+    background-color: #f0d1a0;
+    padding: 10px 10px 0px 10px;
+}
+#displayItem{
+
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+#additionalFee{
+   
+    font-size: 12px;
+    font-weight: 500;
+}
+#total_Div{
+    
+    bottom: 0;
+    font-size: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+#buttonArea{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+    font-size: 15px;
+    gap: 7px;
+    background-color: 	#eec07b;
+    visibility: hidden;
+}
+#subscription2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+    font-size: 15px;
+    gap: 7px;
+    background-color: 	#eec07b;
+    visibility: hidden;
+}
+#subscription h3{
+    margin-right: 0px;
+    font-size: 27px;
+}
+#subscription button{
+    background-color: #eec07b;
+    width: 130px;
+    height: 70px;
+    border: 1px double #422308;
+   
+}
+
+
+#paymentOption{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    gap: 7px;
+    width: 100%;
+    background-color: 	#eec07b;
+    margin-bottom: 23px;
+}
+#paymentOption h3{
+    margin-right: 12px;
+    font-size: 27px;
+}
+#paymentOption button{
+    background-color: #eec07b;
+    width: 130px;
+    height: 70px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px double #422308;
+    
+}
+
+#orderButton{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: 	#eec07b!important;
+
+}
+#orderButton textarea{
+    padding: 17px;
+}
+#orderButton a{
+    font-size: 23px;
+    width: 70%;
+    height: 50px;
+    background-color: 	#422308 ;
+    color: #eec07b;
+    margin-bottom: 20px;
+}
+#orderButton a:hover{
+    transform: scale(1.1);
+}
+
+
+
+#shopNowDisplay{
+    font-size: 12px;
+    
+}
+#shopNowDisplay p{
+    padding: 0px 10px 0px 10px;
+
+}
+
+
+#userAddress{
+    visibility: hidden;
+    /* background-color: #f0d1a0; */
+
+}
+.noUserAddress{
+    visibility: hidden;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#checkLeft{
+    padding: 40px 40px 0px 0px;
+    width: 100%;
+    display: flex;
+}
+
+#inputArea{ 
+  
+    min-width: 300px;
+    margin-right: 50px;
+    
+
+}
+    #inputArea div {
+        padding-left: 40px;
+    }
+#secureImage{
+    text-align: center;
+   
+   
+}
+        #checkOutInfo textarea{
+            width: 100%;
+            height: 100px;
+ 
+        }
+
+
+#checkLeft div label{
+    margin-top: 12px;
+    font-size: 17px;
+}
+#checkLeft div input{
+    width: 220px;
+    height: 30px;
+    padding: 9px;
+    font-size: 17px;
+}
+#checkLeft div select{
+    font-size: 17px;
+    height: 30px;
+    width: 220px;
+}
+
+
+.secureImage0{
+    margin-top: 30px;
+}
+#secureImage img{
+    width: 330px;
+    margin-bottom: 23px;
+    
+}
+#secureImage textarea{
+    padding: 9px;
+    font-size: 17px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
